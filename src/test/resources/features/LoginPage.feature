@@ -15,7 +15,7 @@ Feature: Library app login feature
       And user input librarian password
       Then user should see the dashboard
 
-      @admin @employee
+      @admin
       Scenario: login as admin
         When user enters admin username
         And user enters admin password
